@@ -1,0 +1,36 @@
+html{
+    height:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-size: 25px;
+    background-color: rgb(182, 226, 243);
+    background-image:linear-gradient(rgb(232, 248, 254),rgb(0, 183, 255));
+    min-height: 95%;
+}
+
+button{
+    height:200px;
+    width:200px;
+    font-size:40px;
+    border-radius: 50px;
+    border:10px;
+}
+
+#Rock{
+    background: url("rock.jpg");
+}
+
+#Paper{
+    background: url("paper.jpg");
+}
+
+#Scissors{
+    background: url("scissors.jpg");
+}
+
+p{
+    text-align: center;
+}
